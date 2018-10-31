@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="caman-4.1.2.full.min.js"></script>
+  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.full.min.js"></script>-->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Image Editor</h1>
+<div class="editor">
+    <div class="adjustments">
+  				  <div class="cands">
+              <button id="save">Save</button>
+              <button id="reset">Reset</button>
+              <input type="file" id="load" />
+            </div>
+
+            <h3>Adjustments</h3>
+	          <p>
+  						<label for="brightness">Brightness</label>
+  						<input id="brightness" name="brightness" type="range" min=-100 max=100 value=0>
+  					</p>
+
+            <p>
+              <label for="vibrance">Vibrance</label>
+              <input id="vibrance" name="vibrance" type="range" min=-100 max=100 value=0>
+            </p>
+
+  					<p>
+  						<label for="hue">Hue</label>
+  						<input id="hue" name="hue" type="range" min=-100 max=100 value=0>
+  					</p>
+
+  					<p>
+  						<label for="gamma">Gamma</label>
+  						<input id="gamma" name="gamma" type="range" min=0 max=10 value=0>
+  					</p>
+
+  					<p>
+  						<label for="clip">Clip</label>
+  						<input id="clip" name="clip" type="range" min=0 max=100 value=0>
+  					</p>
+
+            <p>
+              <label for="blur">Blur</label>
+              <input id="blur" name="boxBlur" type="range" min=0 max=200 value=0>
+            </p>
+
+            <p>
+  						<label for="contrast">Contrast</label>
+  						<input id="contrast" name="contrast" type="range" min=-100 max=100 value=0>
+  					</p>
+
+  					<p>
+  						<label for="saturation">Saturation</label>
+  						<input id="saturation" name="saturation" type="range" min=-100 max=100 value=0>
+  					</p>
+
+            <p>
+  						<label for="exposure">Exposure</label>
+  						<input id="exposure" name="exposure" type="range" min=-100 max=100 value=0>
+  					</p>
+
+  					<p>
+  						<label for="sepia">Sepia</label>
+  						<input id="sepia" name="sepia" type="range" min=0 max=100 value=0>
+  					</p>
+
+            <p>
+  						<label for="noise">Noise</label>
+  						<input id="noise" name="noise" type="range" min=0 max=100 value=0>
+  					</p>
+
+            <p>
+              <label for="sharpen">Sharpen</label>
+              <input id="sharpen" name="sharpen" type="range" min=0 max=200 value=0>
+            </p>
+
+    </div>
+    <div class="filters">
+        <button id="vintage" class="filter">Vintage</button>
+        <button id="lomo" class="filter">Lomo</button>
+        <button id="clarity" class="filter">Clarity</button>
+        <button id="orangePeel" class="filter">Orange Peel</button>
+        <button id="sinCity" class="filter">Sin City</button>
+        <button id="sunrise" class="filter">Sun Rise</button>
+        <button id="crossProcess" class="filter">Cross Process</button>
+        <button id="hazyDays" class="filter">Hazy</button>
+        <button id="love" class="filter">Love</button>
+        <button id="grungy" class="filter">Grungy</button>
+        <button id="jarques" class="filter">Jarques</button>
+        <button id="pinhole" class="filter">Pin Hole</button>
+        <button id="oldBoot" class="filter">Old Boot</button>
+        <button id="glowingSun" class="filter">Glow Sun</button>
+        <button id="hemingway" class="filter">Hemingway</button>
+        <button id="herMajesty" class="filter">Her Majesty</button>
+        <button id="nostalgia" class="filter">Nostalgia</button>
+        <button id="concentrate" class="filter">Concentrate</button>
+    </div>
+    <img id="image" class="img" src="">
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>

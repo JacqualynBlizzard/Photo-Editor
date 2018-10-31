@@ -1,0 +1,68 @@
+/*This styles the font for the app and gives the app a background color*/
+body {
+font-family: helvetica;
+color: white;
+text-align: center;
+background: #424242;
+}
+/*These next two styles are for the heading fonts on the app*/
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size:70px;
+  margin:10px;
+}
+h3 {
+text-align: center;
+}
+
+/*Editor, adjustments, and filters are for arranging the three divs so that
+they are next to each other */
+.editor {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.adjustments {
+  text-align: left;
+  float: left;
+  width: 20%;
+  font-size: 14px;
+  margin: 5px;
+  padding: 0;
+}
+
+.filters {
+  float: left;
+  padding-left:20px;
+  padding-right:0px;
+  margin:0;
+  width: 10%;
+  font-size: 14px;
+}
+/*This styles the img class which is the image that is being styled*/
+.img {
+  float: left;
+  width: 50%;
+  height: 50%;
+  padding-left:20px;
+  padding-right: 0;
+}
+
+/*This pushes the clear and save buttons up*/
+.cands {
+  margin-bottom:10px;
+}
+
+/*This styles the buttons in the app*/
+button {
+  background: #3299BB;
+  color: white;
+  border-color: white;
+  font-size:12px;
+  border-radius:10%;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 110px;
+}
